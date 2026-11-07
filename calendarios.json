@@ -1,0 +1,26 @@
+{
+  "_ayuda": "Cada calendario junta los partidos de una o varias fuentes. fuente: feb | acb | euroliga. solo: casa | fuera (opcional). aviso: minutos antes (opcional). Opciones extra por fuente: feb admite 'liga' (1 Primera, 2 Segunda, 3 Tercera FEB...).",
+  "calendarios": [
+    {
+      "archivo": "leonesa_casa",
+      "nombre": "Leonesa en casa",
+      "solo": "casa",
+      "aviso": 180,
+      "fuentes": [{"fuente": "feb", "equipo": "LEONESA", "liga": 2}]
+    },
+    {
+      "archivo": "leonesa_fuera",
+      "nombre": "Leonesa fuera",
+      "solo": "fuera",
+      "fuentes": [{"fuente": "feb", "equipo": "LEONESA", "liga": 2}]
+    },
+    {
+      "archivo": "real_madrid",
+      "nombre": "Real Madrid",
+      "fuentes": [
+        {"fuente": "acb", "equipo": "Real Madrid"},
+        {"fuente": "euroliga", "equipo": "MAD"}
+      ]
+    }
+  ]
+}
