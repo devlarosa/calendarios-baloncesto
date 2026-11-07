@@ -1,0 +1,35 @@
+name: Actualizar calendario Leonesa
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"   # dos veces al día (UTC)
+  workflow_dispatch:          # botón para lanzarlo a mano
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Generar calendario (solo partidos en casa, aviso 3 h antes)
+        run: |
+          python feb_scraper.py --solo-casa --aviso 180 --formatos ics --salida /tmp/out
+          cp /tmp/out/*_casa.ics docs/leonesa_casa.ics
+      - name: Guardar si ha cambiado algo
+        run: |
+          # Se ignora DTSTAMP (cambia en cada ejecución) para no crear commits vacíos
+          if git ls-files --error-unmatch docs/leonesa_casa.ics >/dev/null 2>&1 \
+             && git diff --quiet -I '^DTSTAMP:' -- docs/leonesa_casa.ics; then
+            echo "Sin cambios"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/leonesa_casa.ics
+          git commit -m "Actualizar calendario Leonesa"
+          git push
