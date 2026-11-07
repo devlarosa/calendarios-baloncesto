@@ -91,6 +91,22 @@ def _ics_escape(s: str) -> str:
     return s.replace("\\", "\\\\").replace(";", r"\;").replace(",", r"\,").replace("\n", r"\n")
 
 
+def _ics_plegar(linea: str, maximo: int = 75) -> str:
+    """Parte las líneas de más de 75 octetos (RFC 5545 §3.1) sin cortar caracteres UTF-8.
+
+    Las continuaciones empiezan por un espacio, que cuenta dentro de su límite."""
+    trozos, actual, tam = [], "", 0
+    for c in linea:
+        n = len(c.encode("utf-8"))
+        if tam + n > maximo:
+            trozos.append(actual)
+            actual, tam = " ", 1
+        actual += c
+        tam += n
+    trozos.append(actual)
+    return "\r\n".join(trozos)
+
+
 def exportar_ics(partidos: list[Partido], ruta: Path, nombre_cal: str, duracion_min: int = 120,
                  aviso_min: int | list[int] = 0, prefijo_competicion: bool = False):
     """aviso_min: minutos de antelación de cada recordatorio (un número o una lista; 0 = sin aviso)."""
@@ -130,4 +146,4 @@ def exportar_ics(partidos: list[Partido], ruta: Path, nombre_cal: str, duracion_
                        f"TRIGGER:-PT{aviso}M", "END:VALARM"]
         lineas.append("END:VEVENT")
     lineas.append("END:VCALENDAR")
-    ruta.write_text("\r\n".join(lineas) + "\r\n", encoding="utf-8")
+    ruta.write_bytes(("\r\n".join(_ics_plegar(l) for l in lineas) + "\r\n").encode("utf-8"))
