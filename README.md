@@ -7,7 +7,7 @@ actualizados automáticamente dos veces al día. También exporta CSV y JSON.
 
 | Calendario | URL de suscripción |
 |---|---|
-| Cultural y Deportiva Leonesa, en casa (aviso 3 h antes) | `https://devlarosa.github.io/calendarios-baloncesto/leonesa_casa.ics` |
+| Cultural y Deportiva Leonesa, en casa (avisos 24 h y 3 h antes) | `https://devlarosa.github.io/calendarios-baloncesto/leonesa_casa.ics` |
 | Cultural y Deportiva Leonesa, fuera | `https://devlarosa.github.io/calendarios-baloncesto/leonesa_fuera.ics` |
 | Real Madrid (Liga Endesa, Copa del Rey, Supercopa y Euroliga) | `https://devlarosa.github.io/calendarios-baloncesto/real_madrid.ics` |
 
@@ -48,6 +48,6 @@ Edita `calendarios.json`:
 
 - `equipo`: en FEB y ACB, el nombre o parte de él tal como aparece en su web (en FEB también vale el ID numérico); en la Euroliga, el código de club (`MAD`, `BAR`, `PAM`…).
 - `liga` (solo FEB): 1 Primera FEB, 2 Segunda FEB, 3 Tercera FEB, 4 LF Endesa, 9 LF2, 67 LF Challenge.
-- `solo` (opcional): `casa` o `fuera`. `aviso` (opcional): minutos de antelación del recordatorio.
+- `solo` (opcional): `casa` o `fuera`. `aviso` (opcional): minutos de antelación del recordatorio, un número o una lista (`[1440, 180]` = 24 h y 3 h antes).
 
 La tarea `.github/workflows/calendario.yml` genera todos los calendarios en `docs/` y GitHub Pages los publica.

@@ -92,7 +92,9 @@ def _ics_escape(s: str) -> str:
 
 
 def exportar_ics(partidos: list[Partido], ruta: Path, nombre_cal: str, duracion_min: int = 120,
-                 aviso_min: int = 0, prefijo_competicion: bool = False):
+                 aviso_min: int | list[int] = 0, prefijo_competicion: bool = False):
+    """aviso_min: minutos de antelación de cada recordatorio (un número o una lista; 0 = sin aviso)."""
+    avisos = [a for a in (aviso_min if isinstance(aviso_min, list) else [aviso_min]) if a > 0]
     ahora = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lineas = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//calendarios-baloncesto//ES", "CALSCALE:GREGORIAN",
               f"X-WR-CALNAME:{_ics_escape(nombre_cal)}", "X-WR-TIMEZONE:Europe/Madrid"]
@@ -123,9 +125,9 @@ def exportar_ics(partidos: list[Partido], ruta: Path, nombre_cal: str, duracion_
             lineas.append(f"LOCATION:{_ics_escape(p.pabellon)}")
         if p.url:
             lineas.append(f"URL:{p.url}")
-        if aviso_min > 0 and not p.jugado:
+        for aviso in ([] if p.jugado else avisos):
             lineas += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{_ics_escape(titulo)}",
-                       f"TRIGGER:-PT{aviso_min}M", "END:VALARM"]
+                       f"TRIGGER:-PT{aviso}M", "END:VALARM"]
         lineas.append("END:VEVENT")
     lineas.append("END:VCALENDAR")
     ruta.write_text("\r\n".join(lineas) + "\r\n", encoding="utf-8")
