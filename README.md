@@ -10,6 +10,7 @@ python feb_scraper.py --temporada 2025     # temporada 2025/2026
 python feb_scraper.py --equipo ponferrada  # otro equipo (texto del nombre o ID FEB)
 python feb_scraper.py --liga 1 --equipo 1009588 --formatos ics
 python feb_scraper.py --solo-casa --aviso 180 --formatos ics   # solo partidos en casa, aviso 3 h antes
+python feb_scraper.py --solo-fuera --formatos ics              # solo partidos de visitante
 python feb_scraper.py --sin-detalles       # más rápido: sin hora exacta de partidos jugados ni pabellón
 ```
 

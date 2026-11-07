@@ -165,7 +165,7 @@ class FebScraper:
 
     # ------------------------------------------------------------------ alto nivel
     def calendario_equipo(self, equipo: str, liga: int, temporada: int, detalles: bool = True,
-                          solo_casa: bool = False) -> list[Partido]:
+                          solo_casa: bool = False, solo_fuera: bool = False) -> list[Partido]:
         competicion = LIGAS.get(liga, f"Competición {liga}")
         tempo_txt = f"{temporada}/{temporada + 1}"
         es_id = equipo.isdigit()
@@ -177,7 +177,7 @@ class FebScraper:
         encontrados = []
         for grupo, soup in self.paginas_por_grupo(liga, temporada):
             todos = self.parse_calendario(soup, tempo_txt, competicion, grupo)
-            mios = [p for p in todos if es_mio(p["local"], p["local_id"])
+            mios = [p for p in todos if (not solo_fuera and es_mio(p["local"], p["local_id"]))
                     or (not solo_casa and es_mio(p["visitante"], p["visitante_id"]))]
             if mios:
                 encontrados.extend(mios)
@@ -279,7 +279,9 @@ def main(argv=None):
     ap.add_argument("--temporada", type=int, default=_temporada_actual(), help="Año de inicio, p.ej. 2026 = 2026/2027")
     ap.add_argument("--formatos", default="csv,json,ics", help="Lista separada por comas: csv,json,ics")
     ap.add_argument("--salida", default="salida", help="Carpeta de salida (def.: ./salida)")
-    ap.add_argument("--solo-casa", action="store_true", help="Solo los partidos en los que el equipo juega como local")
+    filtro = ap.add_mutually_exclusive_group()
+    filtro.add_argument("--solo-casa", action="store_true", help="Solo los partidos en los que el equipo juega como local")
+    filtro.add_argument("--solo-fuera", action="store_true", help="Solo los partidos en los que el equipo juega como visitante")
     ap.add_argument("--aviso", type=int, default=0, metavar="MIN",
                     help="Añade un recordatorio al calendario MIN minutos antes de cada partido (0 = sin aviso)")
     ap.add_argument("--sin-detalles", action="store_true",
@@ -288,12 +290,13 @@ def main(argv=None):
 
     scraper = FebScraper()
     partidos = scraper.calendario_equipo(args.equipo, args.liga, args.temporada, detalles=not args.sin_detalles,
-                                         solo_casa=args.solo_casa)
+                                         solo_casa=args.solo_casa, solo_fuera=args.solo_fuera)
 
     out = Path(args.salida)
     out.mkdir(parents=True, exist_ok=True)
     slug = re.sub(r"[^a-z0-9]+", "_", _norm(args.equipo).lower()).strip("_")
-    sufijo = "_casa" if args.solo_casa else ""
+    sufijo = "_casa" if args.solo_casa else "_fuera" if args.solo_fuera else ""
+    etiqueta = "en casa " if args.solo_casa else "fuera " if args.solo_fuera else ""
     base = out / f"{slug}_{LIGAS.get(args.liga, args.liga)}_{args.temporada}{sufijo}".replace(" ", "_").lower()
     formatos = {f.strip().lower() for f in args.formatos.split(",")}
     if "csv" in formatos:
@@ -301,7 +304,7 @@ def main(argv=None):
     if "json" in formatos:
         exportar_json(partidos, base.with_suffix(".json"))
     if "ics" in formatos:
-        nombre = f"{args.equipo.title()} {'en casa ' if args.solo_casa else ''}- {partidos[0].competicion} {partidos[0].temporada}"
+        nombre = f"{args.equipo.title()} {etiqueta}- {partidos[0].competicion} {partidos[0].temporada}"
         exportar_ics(partidos, base.with_suffix(".ics"), nombre, aviso_min=args.aviso)
 
     v = sum(p.resultado == "V" for p in partidos)
