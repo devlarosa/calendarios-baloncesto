@@ -6,10 +6,10 @@ X-WR-CALNAME:M+ Vamos - Euroliga 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:euroliga-E2026-105@euroleague.net
-DTSTAMP:20261112T211733Z
+DTSTAMP:20261112T225915Z
 DTSTART:20261112T193000Z
 DTEND:20261112T213000Z
-SUMMARY:Valencia Basket - FC Bayern Munich
+SUMMARY:Valencia Basket 102-87 FC Bayern Munich
 DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 11\nTV: M+ Vamos\nh
  ttps://www.movistarplus.es/deportes/baloncesto/euroliga-de-baloncesto-26-2
  7/valencia-basket-bayern-munich/ficha?tipo=E&id=4356392\nhttps://www.eurol
@@ -21,7 +21,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-116@euroleague.net
-DTSTAMP:20261112T211733Z
+DTSTAMP:20261112T225915Z
 DTSTART:20261117T193000Z
 DTEND:20261117T213000Z
 SUMMARY:FC Barcelona - Paris Basketball
