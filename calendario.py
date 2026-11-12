@@ -25,9 +25,9 @@ def generar(cal: dict, temporada: int, salida: Path, formatos: set[str], detalle
         if f["fuente"] == "feb":
             opciones["detalles"] = detalles
         fuente = FUENTES[f["fuente"]]()
-        nuevos = fuente.partidos(f["equipo"], temporada, solo=cal.get("solo"), **opciones)
+        nuevos = fuente.partidos(f.get("equipo"), temporada, solo=cal.get("solo"), **opciones)
         if not nuevos:
-            print(f"Aviso: {f['fuente']} no devuelve partidos de '{f['equipo']}'.", file=sys.stderr)
+            print(f"Aviso: {f['fuente']} no devuelve partidos de '{f.get('equipo', 'todos')}'.", file=sys.stderr)
         partidos += nuevos
     if not partidos:
         print(f"ERROR: el calendario '{cal['archivo']}' no tiene partidos.", file=sys.stderr)

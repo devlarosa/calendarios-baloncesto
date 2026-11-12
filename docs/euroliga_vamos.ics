@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//calendarios-baloncesto//ES
+CALSCALE:GREGORIAN
+X-WR-CALNAME:M+ Vamos - Euroliga 2026/2027
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:euroliga-E2026-105@euroleague.net
+DTSTAMP:20261112T211733Z
+DTSTART:20261112T193000Z
+DTEND:20261112T213000Z
+SUMMARY:Valencia Basket - FC Bayern Munich
+DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 11\nTV: M+ Vamos\nh
+ ttps://www.movistarplus.es/deportes/baloncesto/euroliga-de-baloncesto-26-2
+ 7/valencia-basket-bayern-munich/ficha?tipo=E&id=4356392\nhttps://www.eurol
+ eaguebasketball.net/euroleague/game-center/2026-27/valencia-basket-fc-baye
+ rn-munich/E2026/105/
+LOCATION:ROIG ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
+ encia-basket-fc-bayern-munich/E2026/105/
+END:VEVENT
+BEGIN:VEVENT
+UID:euroliga-E2026-116@euroleague.net
+DTSTAMP:20261112T211733Z
+DTSTART:20261117T193000Z
+DTEND:20261117T213000Z
+SUMMARY:FC Barcelona - Paris Basketball
+DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 12\nTV: M+ Vamos\nh
+ ttps://www.movistarplus.es/deportes/baloncesto/euroliga-de-baloncesto-26-2
+ 7/fc-barcelona-paris/ficha?tipo=E&id=4356408\nhttps://www.euroleaguebasket
+ ball.net/euroleague/game-center/2026-27/fc-barcelona-paris-basketball/E202
+ 6/116/
+LOCATION:PALAU BLAUGRANA
+URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/fc-
+ barcelona-paris-basketball/E2026/116/
+END:VEVENT
+END:VCALENDAR

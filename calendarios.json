@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Cada calendario junta los partidos de una o varias fuentes. fuente: feb | acb | euroliga. solo: casa | fuera (opcional). aviso: minutos antes, un número o una lista como [1440, 180] (opcional). Opciones extra por fuente: feb admite 'liga' (1 Primera, 2 Segunda, 3 Tercera FEB...).",
+  "_ayuda": "Cada calendario junta los partidos de una o varias fuentes. fuente: feb | acb | euroliga. solo: casa | fuera (opcional). aviso: minutos antes, un número o una lista como [1440, 180] (opcional). Opciones extra por fuente: feb admite 'liga' (1 Primera, 2 Segunda, 3 Tercera FEB...); euroliga admite 'canal' (vamosd = M+ Vamos) para quedarse con los partidos que Movistar Plus+ da en directo en ese canal, y entonces 'equipo' es opcional.",
   "calendarios": [
     {
       "archivo": "leonesa_casa",
@@ -21,6 +21,11 @@
         {"fuente": "acb", "equipo": "Real Madrid"},
         {"fuente": "euroliga", "equipo": "MAD"}
       ]
+    },
+    {
+      "archivo": "euroliga_vamos",
+      "nombre": "M+ Vamos",
+      "fuentes": [{"fuente": "euroliga", "canal": "vamosd"}]
     }
   ]
 }
