@@ -6,7 +6,7 @@ X-WR-CALNAME:Real Madrid - Euroliga y Liga Endesa 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:euroliga-E2026-2@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20260924T160000Z
 DTEND:20260924T180000Z
 SUMMARY:[Euroliga] Dubai Basketball 78-77 Real Madrid
@@ -19,7 +19,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/dub
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105383@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20260927T170000Z
 DTEND:20260927T190000Z
 SUMMARY:[Liga Endesa] Real Madrid 89-87 Unicaja
@@ -30,7 +30,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-unicaja-105383/resumen
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-11@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20260929T170000Z
 DTEND:20260929T190000Z
 SUMMARY:[Euroliga] Anadolu Efes Istanbul 94-84 Real Madrid
@@ -43,7 +43,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/ana
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-22@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261001T160000Z
 DTEND:20261001T180000Z
 SUMMARY:[Euroliga] Hapoel IBI Tel Aviv 102-98 Real Madrid
@@ -56,7 +56,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/hap
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105389@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261004T103000Z
 DTEND:20261004T123000Z
 SUMMARY:[Liga Endesa] Monbus Obradoiro 107-114 Real Madrid
@@ -68,7 +68,7 @@ URL:https://live.acb.com/es/partidos/monbus-obradoiro-vs-real-madrid-105389
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-35@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261008T184500Z
 DTEND:20261008T204500Z
 SUMMARY:[Euroliga] Real Madrid 86-76 Partizan Mozzart Bet Belgrade
@@ -81,7 +81,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105397@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261011T100000Z
 DTEND:20261011T120000Z
 SUMMARY:[Liga Endesa] Real Madrid 120-83 Kids&Us Manresa
@@ -93,7 +93,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-kids-us-manresa-105397/
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-43@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261013T183000Z
 DTEND:20261013T203000Z
 SUMMARY:[Euroliga] Armani Olimpia Milan 89-98 Real Madrid
@@ -106,7 +106,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/arm
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-53@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261015T190000Z
 DTEND:20261015T210000Z
 SUMMARY:[Euroliga] Real Madrid 111-92 LDLC ASVEL Villeurbanne
@@ -119,7 +119,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105407@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261018T103000Z
 DTEND:20261018T123000Z
 SUMMARY:[Liga Endesa] Real Madrid 119-84 Surne Bilbao
@@ -131,7 +131,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-surne-bilbao-105407/res
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-62@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261022T180500Z
 DTEND:20261022T200500Z
 SUMMARY:[Euroliga] Maccabi Rapyd Tel Aviv 99-113 Real Madrid
@@ -144,7 +144,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/mac
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105419@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261025T180000Z
 DTEND:20261025T200000Z
 SUMMARY:[Liga Endesa] iLERNA Lleida 86-122 Real Madrid
@@ -156,7 +156,7 @@ URL:https://live.acb.com/es/partidos/ilerna-lleida-vs-real-madrid-105419/re
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-73@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261027T200000Z
 DTEND:20261027T220000Z
 SUMMARY:[Euroliga] Kosner Baskonia Vitoria-Gasteiz 86-104 Real Madrid
@@ -169,7 +169,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/kos
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-83@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261029T194500Z
 DTEND:20261029T214500Z
 SUMMARY:[Euroliga] Real Madrid 95-76 Fenerbahce Tarfin Istanbul
@@ -182,7 +182,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105425@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261101T113000Z
 DTEND:20261101T133000Z
 SUMMARY:[Liga Endesa] Real Madrid 90-79 Recoletas Salud San Pablo Burgos
@@ -194,7 +194,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-recoletas-salud-san-pab
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-91@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261104T194500Z
 DTEND:20261104T214500Z
 SUMMARY:[Euroliga] Real Madrid 112-115 Panathinaikos AKTOR Athens
@@ -207,7 +207,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105437@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261108T180000Z
 DTEND:20261108T200000Z
 SUMMARY:[Liga Endesa] Real Madrid 90-71 UCAM Murcia
@@ -219,7 +219,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-ucam-murcia-105437/resu
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-106@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261112T200000Z
 DTEND:20261112T220000Z
 SUMMARY:[Euroliga] Real Madrid 105-84 Crvena Zvezda Meridianbet Belgrade
@@ -232,7 +232,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105446@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261115T180000Z
 DTEND:20261115T200000Z
 SUMMARY:[Liga Endesa] Kosner Baskonia - Real Madrid
@@ -244,7 +244,7 @@ URL:https://live.acb.com/es/partidos/kosner-baskonia-vs-real-madrid-105446/
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-120@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:[Euroliga] Besiktas Istanbul - Real Madrid
@@ -257,7 +257,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/bes
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-130@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261120T191500Z
 DTEND:20261120T211500Z
 SUMMARY:[Euroliga] Olympiacos Piraeus - Real Madrid
@@ -270,7 +270,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/oly
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105455@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261122T180000Z
 DTEND:20261122T200000Z
 SUMMARY:[Liga Endesa] Real Madrid - Asisa Joventut
@@ -282,7 +282,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-asisa-joventut-105455/p
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-139@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261125T194500Z
 DTEND:20261125T214500Z
 SUMMARY:[Euroliga] Real Madrid - Zalgiris Kaunas
@@ -295,7 +295,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-145@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261203T194500Z
 DTEND:20261203T214500Z
 SUMMARY:[Euroliga] Real Madrid - FC Barcelona
@@ -308,7 +308,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105461@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261206T113000Z
 DTEND:20261206T133000Z
 SUMMARY:[Liga Endesa] Real Madrid - MoraBanc Andorra
@@ -320,7 +320,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-morabanc-andorra-105461
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105467@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261208T160000Z
 DTEND:20261208T180000Z
 SUMMARY:[Liga Endesa] Leyma Coruña - Real Madrid
@@ -332,7 +332,7 @@ URL:https://live.acb.com/es/partidos/leyma-coruna-vs-real-madrid-105467/pre
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-154@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261210T194500Z
 DTEND:20261210T214500Z
 SUMMARY:[Euroliga] Paris Basketball - Real Madrid
@@ -345,7 +345,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/par
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105475@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261212T200000Z
 DTEND:20261212T220000Z
 SUMMARY:[Liga Endesa] Río Breogán - Real Madrid
@@ -357,7 +357,7 @@ URL:https://live.acb.com/es/partidos/rio-breogan-vs-real-madrid-105475/prev
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-166@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261215T194500Z
 DTEND:20261215T214500Z
 SUMMARY:[Euroliga] Real Madrid - FC Bayern Munich
@@ -370,7 +370,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-174@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261217T194500Z
 DTEND:20261217T214500Z
 SUMMARY:[Euroliga] Real Madrid - Valencia Basket
@@ -383,7 +383,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105491@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261220T180000Z
 DTEND:20261220T200000Z
 SUMMARY:[Liga Endesa] Casademont Zaragoza - Real Madrid
@@ -395,7 +395,7 @@ URL:https://live.acb.com/es/partidos/casademont-zaragoza-vs-real-madrid-105
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-185@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261222T193000Z
 DTEND:20261222T213000Z
 SUMMARY:[Euroliga] Virtus Bologna - Real Madrid
@@ -408,7 +408,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/vir
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105500@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261227T200000Z
 DTEND:20261227T220000Z
 SUMMARY:[Liga Endesa] Barça - Real Madrid
@@ -419,7 +419,7 @@ URL:https://live.acb.com/es/partidos/barca-vs-real-madrid-105500/previa
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-195@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20261229T200000Z
 DTEND:20261229T220000Z
 SUMMARY:[Euroliga] Real Madrid - Dubai Basketball
@@ -432,7 +432,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105512@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270102T200000Z
 DTEND:20270102T220000Z
 SUMMARY:[Liga Endesa] Real Madrid - La Laguna Tenerife
@@ -444,7 +444,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-la-laguna-tenerife-1055
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105506@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270104T190000Z
 DTEND:20270104T210000Z
 SUMMARY:[Liga Endesa] Valencia Basket - Real Madrid
@@ -456,7 +456,7 @@ URL:https://live.acb.com/es/partidos/valencia-basket-vs-real-madrid-105506/
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-210@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270107T194500Z
 DTEND:20270107T214500Z
 SUMMARY:[Euroliga] Real Madrid - Olympiacos Piraeus
@@ -469,7 +469,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105520@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270110T110000Z
 DTEND:20270110T130000Z
 SUMMARY:[Liga Endesa] Real Madrid - FIATC Girona
@@ -481,7 +481,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-fiatc-girona-105520/pre
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-211@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270112T190000Z
 DTEND:20270112T210000Z
 SUMMARY:[Euroliga] Crvena Zvezda Meridianbet Belgrade - Real Madrid
@@ -494,7 +494,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/crv
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-224@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270114T194500Z
 DTEND:20270114T214500Z
 SUMMARY:[Euroliga] Real Madrid - Anadolu Efes Istanbul
@@ -507,7 +507,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105529@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270116T183000Z
 DTEND:20270116T203000Z
 SUMMARY:[Liga Endesa] Recoletas Salud San Pablo Burgos - Real Madrid
@@ -519,7 +519,7 @@ URL:https://live.acb.com/es/partidos/recoletas-salud-san-pablo-burgos-vs-re
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-236@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270121T194500Z
 DTEND:20270121T214500Z
 SUMMARY:[Euroliga] Real Madrid - Maccabi Rapyd Tel Aviv
@@ -532,7 +532,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105540@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270124T110000Z
 DTEND:20270124T130000Z
 SUMMARY:[Liga Endesa] Real Madrid - Leyma Coruña
@@ -544,7 +544,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-leyma-coruna-105540/pre
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-249@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270129T174500Z
 DTEND:20270129T194500Z
 SUMMARY:[Euroliga] Fenerbahce Tarfin Istanbul - Real Madrid
@@ -557,7 +557,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/fen
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105554@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270131T180000Z
 DTEND:20270131T200000Z
 SUMMARY:[Liga Endesa] UCAM Murcia - Real Madrid
@@ -569,7 +569,7 @@ URL:https://live.acb.com/es/partidos/ucam-murcia-vs-real-madrid-105554/prev
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-255@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270202T194500Z
 DTEND:20270202T214500Z
 SUMMARY:[Euroliga] Partizan Mozzart Bet Belgrade - Real Madrid
@@ -582,7 +582,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/par
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-264@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270204T194500Z
 DTEND:20270204T214500Z
 SUMMARY:[Euroliga] Real Madrid - Paris Basketball
@@ -595,7 +595,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105563@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270207T180000Z
 DTEND:20270207T200000Z
 SUMMARY:[Liga Endesa] Real Madrid - Kosner Baskonia
@@ -607,7 +607,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-kosner-baskonia-105563/
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-278@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270212T180000Z
 DTEND:20270212T200000Z
 SUMMARY:[Euroliga] Zalgiris Kaunas - Real Madrid
@@ -620,7 +620,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/zal
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105572@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270214T180000Z
 DTEND:20270214T200000Z
 SUMMARY:[Liga Endesa] Kids&Us Manresa - Real Madrid
@@ -632,7 +632,7 @@ URL:https://live.acb.com/es/partidos/kids-us-manresa-vs-real-madrid-105572/
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-289@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270305T193000Z
 DTEND:20270305T213000Z
 SUMMARY:[Euroliga] FC Barcelona - Real Madrid
@@ -645,7 +645,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/fc-
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105580@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270307T170000Z
 DTEND:20270307T190000Z
 SUMMARY:[Liga Endesa] Real Madrid - Monbus Obradoiro
@@ -657,7 +657,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-monbus-obradoiro-105580
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-298@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270309T194500Z
 DTEND:20270309T214500Z
 SUMMARY:[Euroliga] Real Madrid - Hapoel IBI Tel Aviv
@@ -670,7 +670,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-305@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270311T194500Z
 DTEND:20270311T214500Z
 SUMMARY:[Euroliga] Real Madrid - Virtus Bologna
@@ -683,7 +683,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105590@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270314T180000Z
 DTEND:20270314T200000Z
 SUMMARY:[Liga Endesa] Real Madrid - Valencia Basket
@@ -695,7 +695,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-valencia-basket-105590/
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-314@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270318T194500Z
 DTEND:20270318T214500Z
 SUMMARY:[Euroliga] Real Madrid - Kosner Baskonia Vitoria-Gasteiz
@@ -708,7 +708,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105599@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270321T180000Z
 DTEND:20270321T200000Z
 SUMMARY:[Liga Endesa] FIATC Girona - Real Madrid
@@ -720,7 +720,7 @@ URL:https://live.acb.com/es/partidos/fiatc-girona-vs-real-madrid-105599/pre
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-328@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270324T190000Z
 DTEND:20270324T210000Z
 SUMMARY:[Euroliga] FC Bayern Munich - Real Madrid
@@ -733,7 +733,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/fc-
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-339@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270326T194500Z
 DTEND:20270326T214500Z
 SUMMARY:[Euroliga] Real Madrid - Besiktas Istanbul
@@ -746,7 +746,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105608@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270328T170000Z
 DTEND:20270328T190000Z
 SUMMARY:[Liga Endesa] Real Madrid - Barça
@@ -757,7 +757,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-barca-105608/previa
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-346@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270401T183000Z
 DTEND:20270401T203000Z
 SUMMARY:[Euroliga] Valencia Basket - Real Madrid
@@ -770,7 +770,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105615@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270404T150000Z
 DTEND:20270404T170000Z
 SUMMARY:[Liga Endesa] Asisa Joventut - Real Madrid
@@ -782,7 +782,7 @@ URL:https://live.acb.com/es/partidos/asisa-joventut-vs-real-madrid-105615/p
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-358@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270406T184500Z
 DTEND:20270406T204500Z
 SUMMARY:[Euroliga] Real Madrid - Armani Olimpia Milan
@@ -795,7 +795,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/rea
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-362@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270408T180000Z
 DTEND:20270408T200000Z
 SUMMARY:[Euroliga] LDLC ASVEL Villeurbanne - Real Madrid
@@ -808,7 +808,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/ldl
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105626@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270411T170000Z
 DTEND:20270411T190000Z
 SUMMARY:[Liga Endesa] La Laguna Tenerife - Real Madrid
@@ -820,7 +820,7 @@ URL:https://live.acb.com/es/partidos/la-laguna-tenerife-vs-real-madrid-1056
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-376@euroleague.net
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270415T181500Z
 DTEND:20270415T201500Z
 SUMMARY:[Euroliga] Panathinaikos AKTOR Athens - Real Madrid
@@ -833,7 +833,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/pan
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105632@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270418T103000Z
 DTEND:20270418T123000Z
 SUMMARY:[Liga Endesa] Real Madrid - Río Breogán
@@ -845,7 +845,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-rio-breogan-105632/prev
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105641@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270425T103000Z
 DTEND:20270425T123000Z
 SUMMARY:[Liga Endesa] Real Madrid - iLERNA Lleida
@@ -857,7 +857,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-ilerna-lleida-105641/pr
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105653@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270502T170000Z
 DTEND:20270502T190000Z
 SUMMARY:[Liga Endesa] Surne Bilbao - Real Madrid
@@ -869,7 +869,7 @@ URL:https://live.acb.com/es/partidos/surne-bilbao-vs-real-madrid-105653/pre
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105662@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270509T170000Z
 DTEND:20270509T190000Z
 SUMMARY:[Liga Endesa] Unicaja - Real Madrid
@@ -880,7 +880,7 @@ URL:https://live.acb.com/es/partidos/unicaja-vs-real-madrid-105662/previa
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105668@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART:20270516T103000Z
 DTEND:20270516T123000Z
 SUMMARY:[Liga Endesa] Real Madrid - Casademont Zaragoza
@@ -892,7 +892,7 @@ URL:https://live.acb.com/es/partidos/real-madrid-vs-casademont-zaragoza-105
 END:VEVENT
 BEGIN:VEVENT
 UID:acb-105672@acb.com
-DTSTAMP:20261112T225912Z
+DTSTAMP:20261113T133950Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:[Liga Endesa] MoraBanc Andorra - Real Madrid (hora por confirmar)

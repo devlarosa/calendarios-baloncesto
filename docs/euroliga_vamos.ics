@@ -6,7 +6,7 @@ X-WR-CALNAME:M+ Vamos - Euroliga 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:euroliga-E2026-105@euroleague.net
-DTSTAMP:20261112T225915Z
+DTSTAMP:20261113T133954Z
 DTSTART:20261112T193000Z
 DTEND:20261112T213000Z
 SUMMARY:Valencia Basket 102-87 FC Bayern Munich
@@ -21,7 +21,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-116@euroleague.net
-DTSTAMP:20261112T225915Z
+DTSTAMP:20261113T133954Z
 DTSTART:20261117T193000Z
 DTEND:20261117T213000Z
 SUMMARY:FC Barcelona - Paris Basketball
@@ -33,5 +33,20 @@ DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 12\nTV: M+ Vamos\nh
 LOCATION:PALAU BLAUGRANA
 URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/fc-
  barcelona-paris-basketball/E2026/116/
+END:VEVENT
+BEGIN:VEVENT
+UID:euroliga-E2026-125@euroleague.net
+DTSTAMP:20261113T133954Z
+DTSTART:20261119T200000Z
+DTEND:20261119T220000Z
+SUMMARY:Valencia Basket - Virtus Bologna
+DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 13\nTV: M+ Vamos\nh
+ ttps://www.movistarplus.es/deportes/baloncesto/euroliga-de-baloncesto-26-2
+ 7/valencia-basket-virtus/ficha?tipo=E&id=4356422\nhttps://www.euroleagueba
+ sketball.net/euroleague/game-center/2026-27/valencia-basket-virtus-bologna
+ /E2026/125/
+LOCATION:ROIG ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
+ encia-basket-virtus-bologna/E2026/125/
 END:VEVENT
 END:VCALENDAR
