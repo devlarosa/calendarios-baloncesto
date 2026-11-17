@@ -43,6 +43,7 @@ def generar(cal: dict, temporada: int, salida: Path, formatos: set[str], detalle
         competiciones = sorted({p.competicion for p in partidos})
         nombre = f"{cal['nombre']} - {' y '.join(competiciones)} {temporada}/{temporada + 1}"
         exportar_ics(partidos, base.with_suffix(".ics"), nombre, aviso_min=cal.get("aviso", 0),
+                     duracion_min=cal.get("duracion", 120),
                      prefijo_competicion=cal.get("prefijo", len(competiciones) > 1))
 
     print(f"\n== {cal['nombre']} ({cal['archivo']}): {len(partidos)} partidos")

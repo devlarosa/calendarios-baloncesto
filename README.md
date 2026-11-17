@@ -53,6 +53,7 @@ Edita `calendarios.json`:
 - `equipo`: en FEB y ACB, el nombre o parte de él tal como aparece en su web (en FEB también vale el ID numérico); en la Euroliga, el código de club (`MAD`, `BAR`, `PAM`…); en Wherevents, el ID de la ficha del equipo (el número de `https://wherevents.com/equipo/<id>`). La ficha de Wherevents solo enseña los partidos que faltan, así que los ya jugados se conservan desde `estado/`.
 - `liga` (solo FEB): 1 Primera FEB, 2 Segunda FEB, 3 Tercera FEB, 4 LF Endesa, 9 LF2, 67 LF Challenge.
 - `canal` (solo Euroliga, opcional): canal de Movistar Plus+ (`vamosd` = M+ Vamos, `mplus` = Movistar Plus+, `mbalct` = M+ Baloncesto) o una lista; deja solo los partidos que ese canal da en directo y entonces `equipo` es opcional. La guía de Movistar solo publica unos 6 días por delante, así que los partidos aparecen en el calendario según se anuncian; lo encontrado se guarda en `estado/` para no perder los ya emitidos.
+- `duracion` (opcional): minutos que ocupa cada partido en el calendario (por defecto 120).
 - `prefijo` (opcional): `true`/`false` para poner `[competición]` delante del título de cada partido (por defecto, si el calendario junta varias competiciones).
 - `solo` (opcional): `casa` o `fuera`. `aviso` (opcional): minutos de antelación del recordatorio, un número o una lista (`[1440, 180]` = 24 h y 3 h antes).
 
