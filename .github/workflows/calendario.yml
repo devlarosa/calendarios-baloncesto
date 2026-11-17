@@ -19,6 +19,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Generar todos los calendarios de calendarios.json
         run: python calendario.py --formatos ics --salida docs
+      - name: Generar los calendarios escolares de escolar.json
+        run: python escolar.py --salida docs
       - name: Guardar si ha cambiado algo
         run: |
           # Se ignora DTSTAMP (cambia en cada ejecución) para no crear commits vacíos.

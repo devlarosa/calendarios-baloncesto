@@ -1,0 +1,26 @@
+{
+  "_ayuda": "Calendarios escolares (días de día completo). Cada evento: desde y hasta (incluido, opcional), titulo, nota (opcional). Genera docs/<archivo>.ics con: python escolar.py --salida docs",
+  "calendarios": [
+    {
+      "archivo": "escolar_cyl_primaria",
+      "nombre": "Calendario escolar Primaria Castilla y León (León) 2026/2027",
+      "fuente": "Orden EDU/478/2026 (BOCYL 28/05/2026), Decreto 7/2026 de fiestas laborales de Castilla y León y fiestas locales de León capital",
+      "eventos": [
+        {"desde": "2026-09-09", "titulo": "🏫 Inicio de clases"},
+        {"desde": "2026-09-09", "hasta": "2026-09-30", "titulo": "Jornada continua (4 h, horario de mañana)"},
+        {"desde": "2026-10-05", "titulo": "🎉 No lectivo: San Froilán", "nota": "Fiesta local de León capital"},
+        {"desde": "2026-10-12", "titulo": "🎉 No lectivo: Fiesta Nacional de España"},
+        {"desde": "2026-10-30", "titulo": "🎉 No lectivo: Día del Docente"},
+        {"desde": "2026-11-02", "titulo": "🎉 No lectivo: Todos los Santos (trasladado)"},
+        {"desde": "2026-12-07", "hasta": "2026-12-08", "titulo": "🎉 No lectivo: Constitución e Inmaculada"},
+        {"desde": "2026-12-23", "hasta": "2027-01-10", "titulo": "🎄 Vacaciones de Navidad", "nota": "Último día de clase: martes 22 de diciembre. Vuelta: lunes 11 de enero."},
+        {"desde": "2027-02-08", "hasta": "2027-02-09", "titulo": "🎭 No lectivo: Carnaval"},
+        {"desde": "2027-03-20", "hasta": "2027-03-30", "titulo": "🐣 Vacaciones de Semana Santa", "nota": "Último día de clase: viernes 19 de marzo. Vuelta: miércoles 31 de marzo."},
+        {"desde": "2027-04-23", "titulo": "🎉 No lectivo: Fiesta de Castilla y León"},
+        {"desde": "2027-06-01", "hasta": "2027-06-23", "titulo": "Jornada continua (4 h, horario de mañana)"},
+        {"desde": "2027-06-23", "titulo": "🏫 Último día de clase", "nota": "La orden fija el fin el 24 de junio, pero ese día es fiesta local en León (San Juan)."},
+        {"desde": "2027-06-24", "titulo": "🎉 No lectivo: San Juan", "nota": "Fiesta local de León capital"}
+      ]
+    }
+  ]
+}

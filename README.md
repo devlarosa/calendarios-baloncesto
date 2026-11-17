@@ -12,6 +12,7 @@ actualizados automáticamente dos veces al día. También exporta CSV y JSON.
 | Real Madrid (Liga Endesa, Copa del Rey, Supercopa y Euroliga) | `https://devlarosa.github.io/calendarios-baloncesto/real_madrid.ics` |
 | Euroliga en directo en M+ Vamos (Movistar Plus+, incluido en la suscripción Lite) | `https://devlarosa.github.io/calendarios-baloncesto/euroliga_vamos.ics` |
 | CB Los Adiles A y B (torneos de Wherevents) | `https://devlarosa.github.io/calendarios-baloncesto/los_adiles.ics` |
+| Calendario escolar de Primaria en Castilla y León, con las fiestas locales de León capital | `https://devlarosa.github.io/calendarios-baloncesto/escolar_cyl_primaria.ics` |
 
 ## Fuentes
 
@@ -56,5 +57,11 @@ Edita `calendarios.json`:
 - `duracion` (opcional): minutos que ocupa cada partido en el calendario (por defecto 120).
 - `prefijo` (opcional): `true`/`false` para poner `[competición]` delante del título de cada partido (por defecto, si el calendario junta varias competiciones).
 - `solo` (opcional): `casa` o `fuera`. `aviso` (opcional): minutos de antelación del recordatorio, un número o una lista (`[1440, 180]` = 24 h y 3 h antes).
+
+## Calendarios escolares
+
+`escolar.json` guarda a mano los días de inicio y fin de clases, vacaciones y no lectivos (fuente: la orden
+anual de calendario escolar del BOCYL, el decreto de fiestas laborales y las fiestas locales del municipio).
+`python escolar.py --salida docs` los convierte en ICS. Cada curso hay que añadir las fechas nuevas.
 
 La tarea `.github/workflows/calendario.yml` genera todos los calendarios en `docs/` (y guarda `estado/`) y GitHub Pages los publica.
