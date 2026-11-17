@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Cada calendario junta los partidos de una o varias fuentes. fuente: feb | acb | euroliga. solo: casa | fuera (opcional). aviso: minutos antes, un número o una lista como [1440, 180] (opcional). Opciones extra por fuente: feb admite 'liga' (1 Primera, 2 Segunda, 3 Tercera FEB...); euroliga admite 'canal' (vamosd = M+ Vamos) para quedarse con los partidos que Movistar Plus+ da en directo en ese canal, y entonces 'equipo' es opcional.",
+  "_ayuda": "Cada calendario junta los partidos de una o varias fuentes. fuente: feb | acb | euroliga | wherevents (equipo = ID de wherevents.com/equipo/<id>). solo: casa | fuera (opcional). aviso: minutos antes, un número o una lista como [1440, 180] (opcional). prefijo: true/false para poner la competición delante del título (por defecto, si hay varias). Opciones extra por fuente: feb admite 'liga' (1 Primera, 2 Segunda, 3 Tercera FEB...); euroliga admite 'canal' (vamosd = M+ Vamos) para quedarse con los partidos que Movistar Plus+ da en directo en ese canal, y entonces 'equipo' es opcional.",
   "calendarios": [
     {
       "archivo": "leonesa_casa",
@@ -26,6 +26,15 @@
       "archivo": "euroliga_vamos",
       "nombre": "M+ Vamos",
       "fuentes": [{"fuente": "euroliga", "canal": "vamosd"}]
+    },
+    {
+      "archivo": "los_adiles",
+      "nombre": "Los Adiles",
+      "prefijo": false,
+      "fuentes": [
+        {"fuente": "wherevents", "equipo": 40},
+        {"fuente": "wherevents", "equipo": 42}
+      ]
     }
   ]
 }

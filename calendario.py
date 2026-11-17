@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera los calendarios definidos en calendarios.json (FEB, ACB, Euroliga) en CSV, JSON e ICS.
+"""Genera los calendarios definidos en calendarios.json (FEB, ACB, Euroliga, Wherevents) en CSV, JSON e ICS.
 
 Ejemplos:
     python calendario.py                              # todos los calendarios -> ./salida
@@ -43,7 +43,7 @@ def generar(cal: dict, temporada: int, salida: Path, formatos: set[str], detalle
         competiciones = sorted({p.competicion for p in partidos})
         nombre = f"{cal['nombre']} - {' y '.join(competiciones)} {temporada}/{temporada + 1}"
         exportar_ics(partidos, base.with_suffix(".ics"), nombre, aviso_min=cal.get("aviso", 0),
-                     prefijo_competicion=len(competiciones) > 1)
+                     prefijo_competicion=cal.get("prefijo", len(competiciones) > 1))
 
     print(f"\n== {cal['nombre']} ({cal['archivo']}): {len(partidos)} partidos")
     for comp in sorted({p.competicion for p in partidos}):
@@ -54,7 +54,7 @@ def generar(cal: dict, temporada: int, salida: Path, formatos: set[str], detalle
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Genera calendarios de baloncesto (FEB, ACB, Euroliga).")
+    ap = argparse.ArgumentParser(description="Genera calendarios de baloncesto (FEB, ACB, Euroliga, Wherevents).")
     ap.add_argument("calendarios", nargs="*", help="'archivo' de los calendarios a generar (def.: todos)")
     ap.add_argument("--config", default=Path(__file__).with_name("calendarios.json"), type=Path)
     ap.add_argument("--temporada", type=int, default=temporada_actual(), help="Año de inicio, p.ej. 2026 = 2026/2027")
