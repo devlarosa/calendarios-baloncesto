@@ -6,7 +6,7 @@ X-WR-CALNAME:M+ Vamos - Euroliga 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:euroliga-E2026-105@euroleague.net
-DTSTAMP:20261116T141934Z
+DTSTAMP:20261118T001408Z
 DTSTART:20261112T193000Z
 DTEND:20261112T213000Z
 SUMMARY:Valencia Basket 102-87 FC Bayern Munich
@@ -21,10 +21,10 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-116@euroleague.net
-DTSTAMP:20261116T141934Z
+DTSTAMP:20261118T001408Z
 DTSTART:20261117T193000Z
 DTEND:20261117T213000Z
-SUMMARY:FC Barcelona - Paris Basketball
+SUMMARY:FC Barcelona 86-89 Paris Basketball
 DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 12\nTV: M+ Vamos\nh
  ttps://www.movistarplus.es/deportes/baloncesto/euroliga-de-baloncesto-26-2
  7/fc-barcelona-paris/ficha?tipo=E&id=4356408\nhttps://www.euroleaguebasket
@@ -36,7 +36,7 @@ URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/fc-
 END:VEVENT
 BEGIN:VEVENT
 UID:euroliga-E2026-125@euroleague.net
-DTSTAMP:20261116T141934Z
+DTSTAMP:20261118T001408Z
 DTSTART:20261119T200000Z
 DTEND:20261119T220000Z
 SUMMARY:Valencia Basket - Virtus Bologna
@@ -48,5 +48,20 @@ DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 13\nTV: M+ Vamos\nh
 LOCATION:ROIG ARENA
 URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
  encia-basket-virtus-bologna/E2026/125/
+END:VEVENT
+BEGIN:VEVENT
+UID:euroliga-E2026-135@euroleague.net
+DTSTAMP:20261118T001408Z
+DTSTART:20261124T193000Z
+DTEND:20261124T213000Z
+SUMMARY:Valencia Basket - Panathinaikos AKTOR Athens
+DESCRIPTION:Euroliga 2026/2027 - Fase regular - Jornada 14\nTV: M+ Vamos\nh
+ ttps://www.movistarplus.es/deportes/baloncesto/euroliga-de-baloncesto-26-2
+ 7/valencia-basket-panathinaikos/ficha?tipo=E&id=4356437\nhttps://www.eurol
+ eaguebasketball.net/euroleague/game-center/2026-27/valencia-basket-panathi
+ naikos-aktor-athens/E2026/135/
+LOCATION:ROIG ARENA
+URL:https://www.euroleaguebasketball.net/euroleague/game-center/2026-27/val
+ encia-basket-panathinaikos-aktor-athens/E2026/135/
 END:VEVENT
 END:VCALENDAR
