@@ -1,5 +1,27 @@
 [
   {
+    "id": 166,
+    "temporada": "2026/2027",
+    "competicion": "CB Los Adiles B",
+    "grupo": "XIII Torneo solidario benjamín femenino del colegio Divina Pastora Grupo B",
+    "jornada": "Jornada 2",
+    "fecha": "2026-11-28T11:00:00+01:00",
+    "local": "CB Los Adiles B",
+    "local_id": 42,
+    "visitante": "Baloncesto Femenino León",
+    "visitante_id": null,
+    "puntos_local": null,
+    "puntos_visitante": null,
+    "jugado": false,
+    "condicion": "Local",
+    "rival": "Baloncesto Femenino León",
+    "resultado": "",
+    "pabellon": "Cancha 2 - Pabellón de Quevedo",
+    "url": "https://wherevents.com/torneo/4#partido-166",
+    "uid": "wherevents-partido-166@wherevents.com",
+    "notas": ""
+  },
+  {
     "id": 167,
     "temporada": "2026/2027",
     "competicion": "CB Los Adiles B",

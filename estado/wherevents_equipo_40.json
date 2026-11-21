@@ -1,5 +1,27 @@
 [
   {
+    "id": 149,
+    "temporada": "2026/2027",
+    "competicion": "CB Los Adiles A",
+    "grupo": "XIII Torneo solidario benjamín femenino del colegio Divina Pastora Grupo A",
+    "jornada": "Jornada 2",
+    "fecha": "2026-11-28T10:00:00+01:00",
+    "local": "Jesuitas",
+    "local_id": null,
+    "visitante": "CB Los Adiles A",
+    "visitante_id": 40,
+    "puntos_local": null,
+    "puntos_visitante": null,
+    "jugado": false,
+    "condicion": "Visitante",
+    "rival": "Jesuitas",
+    "resultado": "",
+    "pabellon": "Cancha 1 - Pabellón de Quevedo",
+    "url": "https://wherevents.com/torneo/3#partido-149",
+    "uid": "wherevents-partido-149@wherevents.com",
+    "notas": ""
+  },
+  {
     "id": 154,
     "temporada": "2026/2027",
     "competicion": "CB Los Adiles A",
