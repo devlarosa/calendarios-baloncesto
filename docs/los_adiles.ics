@@ -5,56 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Los Adiles - CB Los Adiles A y CB Los Adiles B 2026/2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
-UID:wherevents-partido-162@wherevents.com
-DTSTAMP:20261120T233013Z
-DTSTART:20261121T100000Z
-DTEND:20261121T110000Z
-SUMMARY:Maristas San José - CB Los Adiles B
-DESCRIPTION:CB Los Adiles B 2026/2027 - XIII Torneo solidario benjamín fem
- enino del colegio Divina Pastora Grupo B - Jornada 1\nhttps://wherevents.c
- om/torneo/4#partido-162
-LOCATION:Cancha 2 - Pabellón de Quevedo
-URL:https://wherevents.com/torneo/4#partido-162
-END:VEVENT
-BEGIN:VEVENT
-UID:wherevents-partido-147@wherevents.com
-DTSTAMP:20261120T233013Z
-DTSTART:20261121T110000Z
-DTEND:20261121T120000Z
-SUMMARY:CB Los Adiles A - Leonés A
-DESCRIPTION:CB Los Adiles A 2026/2027 - XIII Torneo solidario benjamín fem
- enino del colegio Divina Pastora Grupo A - Jornada 1\nhttps://wherevents.c
- om/torneo/3#partido-147
-LOCATION:Cancha 1 - Pabellón de Quevedo
-URL:https://wherevents.com/torneo/3#partido-147
-END:VEVENT
-BEGIN:VEVENT
-UID:wherevents-partido-149@wherevents.com
-DTSTAMP:20261120T233013Z
-DTSTART:20261128T090000Z
-DTEND:20261128T100000Z
-SUMMARY:Jesuitas - CB Los Adiles A
-DESCRIPTION:CB Los Adiles A 2026/2027 - XIII Torneo solidario benjamín fem
- enino del colegio Divina Pastora Grupo A - Jornada 2\nhttps://wherevents.c
- om/torneo/3#partido-149
-LOCATION:Cancha 1 - Pabellón de Quevedo
-URL:https://wherevents.com/torneo/3#partido-149
-END:VEVENT
-BEGIN:VEVENT
-UID:wherevents-partido-166@wherevents.com
-DTSTAMP:20261120T233013Z
-DTSTART:20261128T100000Z
-DTEND:20261128T110000Z
-SUMMARY:CB Los Adiles B - Baloncesto Femenino León
-DESCRIPTION:CB Los Adiles B 2026/2027 - XIII Torneo solidario benjamín fem
- enino del colegio Divina Pastora Grupo B - Jornada 2\nhttps://wherevents.c
- om/torneo/4#partido-166
-LOCATION:Cancha 2 - Pabellón de Quevedo
-URL:https://wherevents.com/torneo/4#partido-166
-END:VEVENT
-BEGIN:VEVENT
 UID:wherevents-partido-167@wherevents.com
-DTSTAMP:20261120T233013Z
+DTSTAMP:20261121T135459Z
 DTSTART:20261219T090000Z
 DTEND:20261219T100000Z
 SUMMARY:Patatas Hijolusa Verde - CB Los Adiles B
@@ -66,7 +18,7 @@ URL:https://wherevents.com/torneo/4#partido-167
 END:VEVENT
 BEGIN:VEVENT
 UID:wherevents-partido-154@wherevents.com
-DTSTAMP:20261120T233013Z
+DTSTAMP:20261121T135459Z
 DTSTART:20261219T100000Z
 DTEND:20261219T110000Z
 SUMMARY:Divina Pastora A - CB Los Adiles A
@@ -78,7 +30,7 @@ URL:https://wherevents.com/torneo/3#partido-154
 END:VEVENT
 BEGIN:VEVENT
 UID:wherevents-partido-171@wherevents.com
-DTSTAMP:20261120T233013Z
+DTSTAMP:20261121T135459Z
 DTSTART:20270116T090000Z
 DTEND:20270116T100000Z
 SUMMARY:CB Los Adiles B - Divina Pastora B
@@ -90,7 +42,7 @@ URL:https://wherevents.com/torneo/4#partido-171
 END:VEVENT
 BEGIN:VEVENT
 UID:wherevents-partido-156@wherevents.com
-DTSTAMP:20261120T233013Z
+DTSTAMP:20261121T135459Z
 DTSTART:20270116T100000Z
 DTEND:20270116T110000Z
 SUMMARY:CB Los Adiles A - Leonés B
@@ -102,7 +54,7 @@ URL:https://wherevents.com/torneo/3#partido-156
 END:VEVENT
 BEGIN:VEVENT
 UID:wherevents-partido-159@wherevents.com
-DTSTAMP:20261120T233013Z
+DTSTAMP:20261121T135459Z
 DTSTART:20270123T090000Z
 DTEND:20270123T100000Z
 SUMMARY:Patatas Hijolusa Negro - CB Los Adiles A
@@ -114,7 +66,7 @@ URL:https://wherevents.com/torneo/3#partido-159
 END:VEVENT
 BEGIN:VEVENT
 UID:wherevents-partido-175@wherevents.com
-DTSTAMP:20261120T233013Z
+DTSTAMP:20261121T135459Z
 DTSTART:20270123T100000Z
 DTEND:20270123T110000Z
 SUMMARY:Leonés C - CB Los Adiles B
