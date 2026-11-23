@@ -38,9 +38,9 @@ class Wherevents:
             actuales = None
 
         if actuales is not None:
-            hoy = datetime.now(MADRID).date().isoformat()
-            # Se conservan los guardados ya pasados; uno futuro que desaparece de la ficha se ha anulado
-            todos = {i: p for i, p in guardados.items() if i not in actuales and (p.fecha or "")[:10] < hoy}
+            # Se conservan los guardados que ya han empezado (la ficha los quita en cuanto se juegan, a veces
+            # el mismo día); uno futuro que desaparece de la ficha se ha anulado
+            todos = {i: p for i, p in guardados.items() if i not in actuales and _empezado(p)}
             todos.update(actuales)
             if todos != guardados:
                 ruta.parent.mkdir(parents=True, exist_ok=True)
@@ -108,3 +108,13 @@ class Wherevents:
         if not torneo:  # sin " · ": todo es el torneo
             torneo, jornada = jornada, ""
         return (equipos[0], equipos[1], torneo, jornada) if len(equipos) == 2 else None
+
+
+def _empezado(p: Partido) -> bool:
+    """True si el partido ya ha empezado (o, sin hora conocida, si es de hoy o anterior)."""
+    if not p.fecha:
+        return False
+    ahora = datetime.now(MADRID)
+    if "T" in p.fecha:
+        return datetime.fromisoformat(p.fecha) <= ahora
+    return date.fromisoformat(p.fecha[:10]) <= ahora.date()
